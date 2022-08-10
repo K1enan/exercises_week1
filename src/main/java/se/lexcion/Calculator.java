@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-
-    public static void main(String[] args) {
-
+  public static void ex6() {
 
         int calc;
         int num1;
@@ -64,16 +62,10 @@ public class Calculator {
                 default:
                     System.out.println("Invalid number \n");
             }
-
         }
-
         while (calc != 0);
         System.out.println("Good bay");
-
-
     }
-
-
 
 }
 
